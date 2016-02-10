@@ -4,5 +4,5 @@ alive_people = ["Kelly", "Joe", "Megan"]
 name = gets.chomp
 
 if dead_people.include?(name) then
-	puts "Don't send questionnaire to #{name}"
+	puts "Do not send questionnaire to #{name}"
 end
