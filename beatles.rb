@@ -22,7 +22,7 @@ beatles.each do |member|
 	when "The Smart One"
 		member[:name] = "Matt"
 	when "The Shy One"
-		member[:name] = "Ringo"
+		
 	when "The Cute One"
 		member[:name] = "Paul"
 	when "The Quiet One"
