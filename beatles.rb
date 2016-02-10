@@ -20,7 +20,7 @@ beatles = [
 beatles.each do |member|
 	case member[:nickname]
 	when "The Smart One"
-		member[:name] = "John"
+		member[:name] = "Matt"
 	when "The Shy One"
 		member[:name] = "Ringo"
 	when "The Cute One"
