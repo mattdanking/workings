@@ -4,7 +4,7 @@ def tip_calc(number)
 	elsif number < 0
 		num = number.to_f
 	else
-		puts "Please enter a valid number please."
+		puts "Please enter a valid number."
 	end
 	num
 end
@@ -19,7 +19,7 @@ def bill_split(bill_amount, people)
 end
 
 
-puts "How much is your bill?"
+puts "How much is the bill?"
 bill = gets.chomp.to_f
 puts "What percent amount would you like to tip?"
 tip = gets.chomp
