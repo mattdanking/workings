@@ -8,7 +8,7 @@ class Fox
 end
 
 quick_fox = Fox.new
-lazy_dog = "log"
-daisy_log = "dog"
+lazy_dog = "dog"
+daisy_log = "log"
 
 quick_fox.jumped_over(lazy_dog, daisy_log)
